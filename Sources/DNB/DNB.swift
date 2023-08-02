@@ -6,7 +6,8 @@ public struct testFunction {
         
     }
     public static func sum<T: Numeric>(_ a: T, _ b: T) -> T {
-        print(a,b)
-        return a + b
+        let sums = a + b
+        print("the sum of \(a) & \(b) is \(sums)")
+        return sums
     }
 }
