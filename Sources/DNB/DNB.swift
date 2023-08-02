@@ -5,7 +5,7 @@ public struct SDK {
 }
  
 public struct Caluclate {
-    public static func add(){
-        print("Add some to work")
+    public func sum<T: Numeric>(_ a: T, _ b: T) -> T {
+        return a + b
     }
 }
